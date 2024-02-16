@@ -1,0 +1,43 @@
+"#include <iostream>
+using namespace std;
+int main(){
+    scores[0] = 20;
+    scores[1] = 21;
+    scores[2] = 22;
+    scores [22] = 300;
+
+
+    cout<< endl;
+    for (size_t i{0}; i< 10; ++i) {
+        cout<< "scores["<< i << "] : "<< scores[i] << endl;
+    } 
+
+    for(size_t i{0}; i< 10; ++i){
+        scores[i] = i * 10;
+        cout<< scores[i]<< endl;
+    }
+
+    cout<< endl;
+    cout<< "declare and initialise at the same time"<<endl;
+    double salaries[5] {12.7, 7.5, 13.2, 8.1, 9.3 }; //intialise
+
+    for (size_t i{0}; i < 5; ++i){
+        cout<< "salary " << i+1 << ". " <<salaries[i] << endl;
+    }
+
+    int class_sizes[] {10, 12, 15, 11, 18, 17, 23};
+
+    for (auto value : class_sizes){
+        cout<<"value: " << value<< endl;
+    }
+    cout<<"---------------------------"<<endl;
+    const int birds[] {10, 12, 15, 11, 18, 17, 23};
+
+    int scores[8] {12,15,46,89,64,57,39,45};
+    int sum{0};
+    for(int element : scores ){
+        sum += element;
+    }cout<< "score sum: "<< sum << endl;
+
+    return 0;
+}"

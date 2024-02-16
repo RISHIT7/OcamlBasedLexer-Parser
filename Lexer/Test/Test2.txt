@@ -1,0 +1,7 @@
+"fn add(x){
+    return (x.first + 1, x.second + 2);
+}
+
+let front = (2, 4);
+let add_front = add(front);
+let () = print_endline(add_front);"

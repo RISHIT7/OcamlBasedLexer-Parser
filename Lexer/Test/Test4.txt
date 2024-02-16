@@ -1,0 +1,4 @@
+"let a0a:i64 = 19;
+let a'a:i64 = 10;
+let ABC = !NOT;
+let abc = ~not;"

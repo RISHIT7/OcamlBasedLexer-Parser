@@ -1,0 +1,12 @@
+"
+#include <iostream>
+using namesapce std;
+int main(){
+
+    int i;
+    cin>> i;
+    cout <<40-i << endl;
+
+    return 0;
+}
+"
