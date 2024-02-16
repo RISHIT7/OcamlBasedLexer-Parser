@@ -26,6 +26,6 @@ Welcome to the OCaml Lexer repository! This project implements a lexer for a sim
    cd ocaml-toy-lexer
    
 3. **Run the lexer**
-   To run the Test1 file, ( default is be Test1 )
+   To run the Test1 file, ( default test file is Test1 )
    ```bash
    make test_file=Test1
